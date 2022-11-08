@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command RAB_Session01_Solution</Text>
+    <Description>Some description for RAB_Session01_Solution</Description>
+    <Assembly>RAB_Session01_Solution.dll</Assembly>
+    <FullClassName>RAB_Session01_Solution.Command</FullClassName>
+    <ClientId>708c221b-3bec-4b99-a4a4-9be789762e91</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+
+  <AddIn Type="Command">
+    <Text>Fizz Buzz</Text>
+    <Description>Some description for RAB_Session01_Solution</Description>
+    <Assembly>RAB_Session01_Solution.dll</Assembly>
+    <FullClassName>RAB_Session01_Solution.CmdFizzBuzz</FullClassName>
+    <ClientId>095055B6-01F3-4E79-AF63-E7AE9C390E57</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  
+  <AddIn Type="Application">
+    <Name>Application RAB_Session01_Solution</Name>
+    <Assembly>RAB_Session01_Solution.dll</Assembly>
+    <FullClassName>RAB_Session01_Solution.App</FullClassName>
+    <ClientId>9f74a82c-eb22-4e50-94e4-402aba515d0a</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
